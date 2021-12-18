@@ -92,4 +92,39 @@ const jonathan = fullName('Jonathan','Hernandez');
 console.log(jonathan);
 
 
+// Interface
 
+enum Color {
+    Naranja = "Naranja",
+    Cafe = "Café"
+}
+
+interface Rectangulo {
+    ancho: number;
+    alto: number;
+    color: Color,
+}
+
+let rect: Rectangulo = {
+    ancho: 4,
+    alto: 6,
+    color: Color.Rojo,
+    
+}
+
+function area (r: Rectangulo) {
+    return r.alto * r.ancho;
+}
+
+const areaRect = area(rect);
+
+console.log(areaRect);
+
+
+
+
+rect.toString = function () {
+    return this.color ? `un rectángulo ${this.color}` : `Un rectángulo`;
+}
+
+console.log(rect.toString());
