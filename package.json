@@ -1,0 +1,29 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ts/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanhernandezgit/typescript.git"
+  },
+  "keywords": [
+    "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"
+  ],
+  "author": "jonathanhernandez.gt2@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanhernandezgit/typescript/issues"
+  },
+  "homepage": "https://github.com/jonathanhernandezgit/typescript#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.5.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}
